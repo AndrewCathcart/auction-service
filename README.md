@@ -1,3 +1,38 @@
+# auction-service
+
+## Description
+
+An online auction application built on AWS in order to learn how to develop a reliable and scalable serverless application, following microservice architecture principles.
+
+In this project;
+
+- REST API and CRUD endpoints (AWS Lambda, API Gateway)
+- Data persistence (AWS DynamoDB)
+- Message Queues for cross-service communication (AWS SQS)
+- Scheduled event triggers (AWS EventBridge)
+- Cloud stack management (AWS CloudFormation)
+- Object storage on the cloud (AWS S3)
+- Email notifications (AWS SES)
+- Middleware (Middy)
+- Authentication and Authorization (Lambda Authorizer)
+- Data validation and error handling
+
+## Installation
+
+Prerequisites
+
+- [Node](https://nodejs.org/en/) is required. This can be installed via the website or by using [nvm](https://github.com/nvm-sh/nvm) (see their documentation).
+- [AWS CLI Version 2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- Serverless `$ npm install -g serverless`
+
+Then install dependencies
+
+`$ npm install`
+
+Deploy to development in AWS
+
+`$ sls deploy -v`
+
 ## DynamoDB Notes
 
 - High Availability, Performance, Durability
