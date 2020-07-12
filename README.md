@@ -59,3 +59,7 @@ Deploy to development in AWS
     - Single RCU represents one strongly consistent read per second, or two eventually consistent reads per second, for up to 4KB in size.
     - Single WCU represents one write per second, for an item up to 1 KB in size.
 - DynamoDB Streams - Optional feature that allows you to react on new item creation, update or deletion. E.g. when new user is created send a welcome email with SES.
+
+## Custom Authorizer With Lambda & API Gateway
+
+https://www.alexdebrie.com/posts/lambda-custom-authorizers/
