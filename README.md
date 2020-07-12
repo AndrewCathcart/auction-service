@@ -25,7 +25,7 @@ Prerequisites
 
 - [Node](https://nodejs.org/en/) is required. This can be installed via the website or by using [nvm](https://github.com/nvm-sh/nvm) (see their documentation).
 - [AWS CLI Version 2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-- Serverless `$ npm install -g serverless`
+- Serverless Framework `$ npm install -g serverless`
 
 Then install dependencies
 
