@@ -1,5 +1,6 @@
 import middy from '@middy/core';
 import httpErrorHandler from '@middy/http-error-handler';
+import cors from '@middy/http-cors';
 import createError from 'http-errors';
 import { getAuctionById } from './getAuction';
 import { uploadPictureToS3 } from '../lib/uploadPictureToS3';
@@ -38,4 +39,6 @@ export async function uploadAuctionPicture(event) {
   };
 }
 
-export const handler = middy(uploadAuctionPicture).use(httpErrorHandler());
+export const handler = middy(uploadAuctionPicture)
+  .use(httpErrorHandler())
+  .use(cors());

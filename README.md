@@ -2,6 +2,8 @@
 
 Relies on [auth0-auth-service](https://github.com/AndrewCathcart/auth0-auth-service) & [auction-service-notifier](https://github.com/AndrewCathcart/auction-service)
 
+![Architectural Diagaram](https://i.imgur.com/SzkXPky.png)
+
 ## Description
 
 An online auction application built on AWS in order to learn how to develop a reliable and scalable serverless application, following microservice architecture principles.
