@@ -1,6 +1,6 @@
 # auction-service
 
-Relies on [auth0-auth-service](https://github.com/AndrewCathcart/auth0-auth-service) & [auction-service-notifier](https://github.com/AndrewCathcart/auction-service)
+Relies on [auth0-auth-service](https://github.com/AndrewCathcart/auth0-auth-service) & [auction-service-notifier](https://github.com/AndrewCathcart/auction-service-notifier)
 
 ![Architectural Diagaram](https://i.imgur.com/SzkXPky.png)
 
