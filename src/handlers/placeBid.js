@@ -24,13 +24,14 @@ async function placeBid(event, context) {
     throw new createError.Forbidden('You cannot bid on your own auction.');
   }
 
+  // Bidder already has the highest bid
   if (auction.highestBid.bidder && auction.highestBid.bidder == email) {
     throw new createError.Forbidden(
       'You already hold the highest bid for this item.',
     );
   }
 
-  // Bid amount validation
+  // New bid amount must be greater than the current bid
   if (amount <= auction.highestBid.amount) {
     throw new createError.Forbidden(
       `Your bid must be higher than ${auction.highestBid.amount}`,
